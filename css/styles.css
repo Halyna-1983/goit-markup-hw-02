@@ -1,18 +1,15 @@
-root {
-    --primary-article-color:  #212121;
-    --primary-text-color: #757575;
-    --accent-color: #2196F3;
-    --primary-bg-color: #FFFFFF;
-
-}
-
 body {
     color: #212121;
     background-color: #E5E5E5;
 }
 
-.logo {
+.web {
     color: #2196F3;
+    letter-spacing: 0.03em;
+}
+
+.studio {
+    color: #000000;
     letter-spacing: 0.03em;
 }
 .logo:focus {
@@ -29,7 +26,7 @@ ul {
 }
 
 /* навігація сторінки */
-.site-nav .menu-title {
+.site-nav .link {
     color: #212121;
 }
 
@@ -37,8 +34,8 @@ ul {
     color: #2196F3;
 }
 
-.site-nav /link.current {
-    color: #2196F3;
+.site-nav .link.current {
+    color:  #2196F3;
 }
 
 /* Hero */
@@ -55,7 +52,7 @@ ul {
 }
 
 .features-article {
-    color: var (--primary-article-color);
+    color:  #212121;
 }
 
 .feature-text {
@@ -79,7 +76,7 @@ ul {
     border: 1px solid #2196F3;
 }
 .button:hover, .button:focus {
-    background-color: var (--accent-color--);
+    background-color:  #2196F3;
 }
 
 footer {
