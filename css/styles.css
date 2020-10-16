@@ -1,3 +1,96 @@
-body {
-    background-color: tomato;
+root {
+    --primary-article-color:  #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+
 }
+
+body {
+    color: #212121;
+    background-color: #E5E5E5;
+}
+
+.logo {
+    color: #2196F3;
+    letter-spacing: 0.03em;
+}
+.logo:focus {
+    color: #2196F3;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+/* забрала крапочки у всіх списках */
+ul {
+    list-style: none;
+}
+
+/* навігація сторінки */
+.site-nav .menu-title {
+    color: #212121;
+}
+
+.site-nav a:hover, .site-nav a:focus {
+    color: #2196F3;
+}
+
+.site-nav /link.current {
+    color: #2196F3;
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.features {
+    background-color: #E5E5E5;
+}
+
+.features-article {
+    color: var (--primary-article-color);
+}
+
+.feature-text {
+    color: #757575;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.features-title,
+.team-title {
+    color: #212121;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color:  #2196F3;
+
+    display: inline-block;
+    border: 1px solid #2196F3;
+}
+.button:hover, .button:focus {
+    background-color: var (--accent-color--);
+}
+
+footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+
+
+
+/*цвет заголовков и Header Nav - #212121  */
+/* цвет Р - #757575 */
+/* все що біле - #FFFFFF */
+/* акцент синій - #2196F3 */
