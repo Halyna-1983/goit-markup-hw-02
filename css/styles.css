@@ -1,6 +1,17 @@
 body {
     color: #212121;
     background-color: #E5E5E5;
+    font-family: Roboto, sans-serif;
+}
+
+/* оформлення лого */
+
+.logo {
+    font-family: Raleway;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .web {
@@ -12,6 +23,7 @@ body {
     color: #000000;
     letter-spacing: 0.03em;
 }
+
 .logo:focus {
     color: #2196F3;
 }
@@ -21,13 +33,19 @@ header {
 }
 
 /* забрала крапочки у всіх списках */
+
 ul {
     list-style: none;
 }
 
 /* навігація сторінки */
+
 .site-nav .link {
     color: #212121;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .site-nav a:hover, .site-nav a:focus {
@@ -39,55 +57,137 @@ ul {
 }
 
 /* Hero */
+
 .hero {
     background-color: #2F303A;
 }
 
 .hero-title {
     color: #FFFFFF;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
 }
+
+/* Секції */
 
 .features {
     background-color: #E5E5E5;
 }
 
+.features-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+
+    text-align: center;
+}
+
 .features-article {
     color:  #212121;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    
+    text-transform: uppercase;
 }
 
 .feature-text {
     color: #757575;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 }
+
 
 .team {
     background-color: #F5F4FA;
 }
 
-.features-title,
-.team-title {
+.team-name {
     color: #212121;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+ }
+
+ .team-occupation {
+    color: #757575;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    
+    text-align: center;
+ }
+
+.team-works {
+    color: #212121;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.team-web {
+    color: #757575;
+   font-weight: 400;
+    font-size: 16px;
+    line-height: 1.86;
 }
 
 .button {
     color: #FFFFFF;
     background-color:  #2196F3;
 
-    display: inline-block;
-    border: 1px solid #2196F3;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2.14;
+
+    align-items: center;
+    text-align: center;
 }
+
 .button:hover, .button:focus {
     background-color:  #2196F3;
 }
+
+/* footer */
 
 footer {
     background-color: #2F303A;
     color: #FFFFFF;
 }
 
+.studio-footer {
+    color: #FFFFFF;
+}
+
+address {
+    color: #FFFFFF;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.contact {
+    color: rgba(255, 255, 255, 0.6);
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
 
 
 
-/*цвет заголовков и Header Nav - #212121  */
-/* цвет Р - #757575 */
-/* все що біле - #FFFFFF */
-/* акцент синій - #2196F3 */
