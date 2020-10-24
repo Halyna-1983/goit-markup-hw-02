@@ -12,6 +12,13 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 1px solid lawngreen;
+}
+
 /* оформлення лого */
 
 .logo {
@@ -36,6 +43,12 @@ body {
     color: var(--color-blue);
 }
 
+/* Header */
+
+.page-header {
+    background-color: var(--main-white-color);
+}
+
 header {
     background-color: var(--main-white-color);
 }
@@ -44,6 +57,11 @@ header {
 
 ul {
     list-style: none;
+}
+
+.auth-nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* навігація сторінки */
@@ -68,25 +86,43 @@ ul {
 
 .hero {
     background-color: #2F303A;
+
+    text-align: center;
 }
 
-.hero-title {
-    color: var(--main-white-color);
 
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: var(--main-white-color);
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-
-    text-align: center;
 }
 
 /* Секції */
 
 .features {
+    margin-top: 0;
+    padding-top: 95px;
+    padding-bottom: 95px;
     background-color: var(--background-color-grey);
 }
 
+.features-images {
+    margin-top: 0;
+    padding-bottom: 95px; 
+    background-color: var(--background-color-grey)
+}
+
+.features-list {
+    margin-top: 0;
+}
+
 .features-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--primary-title-color);
 
     font-weight: 700;
@@ -97,6 +133,9 @@ ul {
 }
 
 .features-article {
+    margin-top: 0;
+    margin-bottom: 10px;
+
     color:  var(--primary-title-color);
 
     font-weight: 700;
@@ -107,6 +146,9 @@ ul {
 }
 
 .feature-text {
+    margin-top: 0;
+    margin-bottom: 0;
+
     color: var(--primary-text-color);
 
     font-weight: 400;
@@ -116,10 +158,15 @@ ul {
 
 
 .team {
+    padding-top: 95px;
+    padding-bottom: 95px;
     background-color: #F5F4FA;
 }
 
 .team-name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
     color: var(--primary-title-color);
 
     font-weight: 500;
@@ -130,6 +177,9 @@ ul {
  }
 
  .team-occupation {
+    margin-top: 0;
+    margin-bottom: 30px;
+
     color: var(--primary-text-color);
 
     font-weight: 400;
@@ -139,7 +189,16 @@ ul {
     text-align: center;
  }
 
+.works {
+    padding: 0;
+}
+
 .team-works {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+    margin-right: 24px;
+
     color: var(--primary-title-color);
 
     font-weight: 700;
@@ -148,13 +207,27 @@ ul {
 }
 
 .team-web {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+
     color: var(--primary-text-color);
+
    font-weight: 400;
     font-size: 16px;
     line-height: 1.86;
 }
 
 .button {
+    display: inline-block;
+
+    border-radius: 4px;
+    padding: 10px 32px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid transparent;
+
     color: var(--main-white-color);
     background-color:  var(--color-blue);
 
@@ -172,6 +245,13 @@ ul {
 }
 
 .button-portfolio {
+    display: inline-block;
+
+    border-radius: 4px;
+    padding: 6px 22px;
+    text-align: center;
+    border: 1px solid transparent;
+
     color: var(--primary-title-color);
     background-color:  #F5F4FA;
 }
@@ -180,9 +260,18 @@ ul {
     background-color:  var(--color-blue);
 }
 
+.btn-portfolio {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 0 280px;
+}
+
 /* footer */
 
 footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: #2F303A;
     color: var(--main-white-color);
 }
@@ -192,6 +281,9 @@ footer {
 }
 
 address {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
     color: var(--main-white-color);
 
     font-weight: 400;
@@ -203,7 +295,14 @@ address:hover, address:focus {
     color:  var(--color-blue);
 }
 
+.footer-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .contact {
+    padding-bottom: 10px;
     color: rgba(255, 255, 255, 0.6);
     
     font-weight: 400;
